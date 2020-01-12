@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class BubbleSort {
 
+
 	public static void main(String[] args) {
 		int n, c, d, swap;
 //		to take number of elements of array
@@ -32,6 +33,7 @@ public class BubbleSort {
 		System.out.println("Sorted list of numbers:");
 
 		for (c = 0; c < n; c++)
-			System.out.print(array[c]);
+			System.out.print(array[c] + " ");
 	}
 }
+s
